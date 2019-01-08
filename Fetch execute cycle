@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <h1 style="color:blue;margin-left:30px;">Fetch, Decode And Execute Cycle - Von Neumann Architecture</h1>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+</body>
+    <script>
+
+var step1 = ("Instructions and data are transferred from RAM to the CPU.");
+var step2 = ("THE CU sets the PC to 0, the address of the first instruction.");
+var step3 = ("The address is transferred to the MAR.");
+var step4 = ("The CU uses the address bus to send signals to the memory location.");
+var step5 = ("Contents of the address is transferred to the MDR which travels along the Memory Data bus.");
+var step6 = ("The PC is incremented by one.");
+var sept7 = ("The CU decode the message into opcode and operand.");
+var step8 = ("The message is checked against its instruction set.");
+var step9 = ("The instruction is carried out.");
+var step10 = ("The results are output in the accumulator.");
+var steps = [step1, step2, step3, step4, step5, step6, step7, step8, step8, step10];
+var destroySteps = steps;
+var start;
+var unorderedSteps;
+
+
+function initiate(){
+    var i = 1;
+    while (steps.length() > 0){
+    var randomNumber = Math.floor(Math.random)*steps.length();
+    document.getElementById("count") = i
+    <p id=("count")></p>
+    <p steps[randomNumber]></p>
+    unorderedSteps.push(destroySteps[randomNumber]);
+    destroySteps.slice(randomNumber, 1);
+    var i = (i+1);
+    }
+    
+    <form action = ">
+        <fieldset>
+            <select id = ("answerOne")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = ("answerTwo")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <optUon value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = "(answerThree")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = "(answerFour")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = "(answerFive")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = "(answerSix")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+                    <select id = ("answerSeven")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = ("answerEight")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+                        </select>
+            <sel3dtt id = ("answerNine")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+            <select id = ("answerTen")>
+                <option value = 1</option>
+                <option value = 2</option>
+                <option value = 3</option>
+                <option value = 4</option>
+                <option value = 5</option>
+                <option value = 6</option>
+                <option value = 7</option>
+                <option value = 8</option>
+                <option value = 9</option>
+                <option value = 10</option>
+            </select>
+        
+    }
+            
+            function checkAnswers{}        
+            var one = id="answerOne"';
+            var two = id="answerTwo";
+            var three = id="answerThree";
+            var four = id="answerFour";
+            var five = id="answerFive";
+            var six = id="answerSix";
+            var seven = id="answerSeven";
+            var eight = id="answerEight";
+            var nine = id="answerNin";
+            var ten = id="answerTen";
+    
+            var number = 0;
+            var total = 0
+        Switch(steps[number]){
+            case unorderedSteps[one]:
+                total = total + 1;
+                number = number + 1;
+            break;
+            case unorderedSteps[two]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[three]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[four]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[five]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[six]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[seven]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[eight]:
+                total = total + 1;
+                number = number + 1;
+                break;
+            case unorderedSteps[nine]:
+                total = total + 1;
+                number = number + 1;
+                break;>
+            case unorderedSteps[ten]:
+            total = total + 1;
+            number = number + 1;
+            break;
+         }
+         alert("Your total score was " && total);
+}
+    
+
+
+do {
+var begin = prompt("Are you ready to begin?","Type 'begin' to start.");
+begin = begin.toLowerCase();
+} while ((begin != 'begin'))
+
+         alert("Welcome to this game of mind.\nClick to continue.");
+<p>("Order the different steps to get the correct procedure for the Fetch, Decode and Execute Cycle.")</p>
+<p>("These are the unordered steps:")</P>
+
+initiate()
+<button type = "button" onclick=checkAnswers()>Check answers</>
+
+</script>
+
+</html>
+
